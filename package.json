@@ -1,0 +1,39 @@
+{
+  "name": "weblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "gulp": "gulp",
+    "build-dev": "set NODE_ENV=development && gulp",
+    "build-prod": "set NODE_ENV=production && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryuju Aono",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "del": "^3.0.0",
+    "eslint": "^7.2.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "require-dir": "^1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "csrf": "^3.1.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "log4js": "^6.3.0",
+    "mongodb": "^3.5.8",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
